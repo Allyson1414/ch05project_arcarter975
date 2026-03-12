@@ -22,9 +22,26 @@
 
     <h2>Contact Form</h2>
     
-
     <section>
+        <form>
+            <fieldset>
+                <legend>Union Contact Form</legend>
+                <label for="f_name">First Name:</label>
+                <input type="text" id="f_name" name="f_name" required/>
+                <br/>
+                <label for="l_name">Last Name:</label>
+                <input type="text" id="l_name" name="l_name" required/>
+                <br/>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required/>
+                <br/>
+                <span id="missing-count"></span>
+                <input type="button" value="Submit"/>
+                <onclick="validate_form(this.form)"></onclick>
+                
+            </fieldset>
 
+        </form>
     </section>
 
     <footer>&copy; 2026</footer>
