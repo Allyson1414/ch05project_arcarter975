@@ -4,4 +4,10 @@
     border-color: red;
 }
 
-    
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: none;
+}
